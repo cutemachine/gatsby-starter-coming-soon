@@ -5,7 +5,7 @@ const IndexPage = () => (
   <div>
     <small>Project Name</small>
     <h1>The Perfect Landing Page For Your Project</h1>
-    <p>The easiest way to build and host a website for your mobile application.</p>
+    <p>The easiest way to build and host a website for your upcoming project launch.</p>
     <hr />
     <h2>Coming very soon</h2>
     <ul>
