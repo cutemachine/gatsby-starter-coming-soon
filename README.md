@@ -31,9 +31,14 @@ gatsby new your-new-gatsby-site https://github.com/cutemachine/gatsby-starter-co
 ## Roadmap
 
 - [x] Build initial version
-- [ ] Add styled-compnents, Grid Styled, and Styled System
+- [ ] Style site with styled-compnents, Grid Styled, and Styled System
 - [ ] Make the site responsive
 - [ ] Add an email sign-up component
+- [ ] Add a countdown component
+- [ ] Add a progress component
+- [ ] Add a feature list component
+- [ ] Add a Twitter list component
+- [ ] Add a second page with About and contact info
 - [ ] Tutorial on how to use and expand the starter
 
 
