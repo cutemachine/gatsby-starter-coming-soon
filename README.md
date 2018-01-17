@@ -14,7 +14,7 @@ A tutorial on how to install, launch, and develop it further will follow soon. S
 Install this starter (assuming Gatsby is installed) by running from your CLI:
 
 ```
-gatsby new your-new-gatsby-site gatsby-starter-coming-soon
+gatsby new your-new-gatsby-site https://github.com/cutemachine/gatsby-starter-coming-soon
 ```
 
 
