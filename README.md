@@ -42,6 +42,11 @@ gatsby new your-new-gatsby-site https://github.com/cutemachine/gatsby-starter-co
 - [ ] Tutorial on how to use and expand the starter
 
 
+## Preview
+
+You can view a [deployed version of the current version](http://compassionate-shockley-54aae9.netlify.com) on the interwebs.
+
+
 ## How Can You Contribute?
 
 You want to contribute to this project? Great. You can contact me through my [Github profile page](https://github.com/cutemachine), or just send a pull request.
