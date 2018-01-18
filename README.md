@@ -9,7 +9,7 @@ Certainly you can use the starter to build upon it and adjust it to your needs.
 A tutorial on how to install, launch, and develop it further will follow soon. See the roadmap below.
 
 
-## How to Use The Starter
+## How to Use The *Coming Soon* Starter
 
 Install this starter (assuming Gatsby is installed) by running from your CLI:
 
