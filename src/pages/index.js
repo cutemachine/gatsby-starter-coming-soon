@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 import styled from 'styled-components'
 
 const Feature = styled.section`
-  background: white;
+  background: ${props => props.theme.colors.superLightGray};
 `
 
 const IndexPage = () => (
