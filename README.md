@@ -32,6 +32,7 @@ gatsby new your-new-gatsby-site https://github.com/cutemachine/gatsby-starter-co
 
 - [x] Build initial version
 - [ ] Style site with styled-components, Grid Styled, and Styled System
+- [ ] Add support for themes
 - [ ] Make the site responsive
 - [ ] Make it easy to adjust settings (Twitter handle etc.), copy, and colors
 - [ ] Add support for themes
