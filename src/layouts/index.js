@@ -8,7 +8,7 @@ import './index.css'
 // A layout with no header and footer; perfect for landing pages.
 export default ({ children }) => (
   <ThemeProvider theme={theme}>
-    <div>
+    <div className='huhu'>
       <Helmet>
         <title>{`${config.projectName} | ${config.siteTitle}`}</title>
         <meta name='description' content={config.siteDescription} />
