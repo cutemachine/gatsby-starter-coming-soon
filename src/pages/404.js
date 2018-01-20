@@ -1,10 +1,19 @@
-import React from 'react'
+import React, { Component } from 'react'
+import Helmet from 'react-helmet'
+import config from '../../data/SiteConfig'
 
-const NotFoundPage = () => (
-  <div>
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-  </div>
-)
+class NotFoundPage extends Component {
+  render () {
+    return (
+      <div className='about-container'>
+        <Helmet>
+          <title>{`404 | ${config.siteTitle}`}</title>
+          <meta name='description' content='404 page' />
+        </Helmet>
+        <p>Sorry, I could not find the resource you are looking for.</p>
+      </div>
+    )
+  }
+}
 
 export default NotFoundPage

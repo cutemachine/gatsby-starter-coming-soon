@@ -9,7 +9,7 @@ Certainly you can use the starter to build upon it and adjust it to your needs.
 A tutorial on how to install, launch, and develop it further will follow soon. See the roadmap below.
 
 
-## How to Use The Starter
+## How to Use The *Coming Soon* Starter
 
 Install this starter (assuming Gatsby is installed) by running from your CLI:
 
@@ -31,16 +31,17 @@ gatsby new your-new-gatsby-site https://github.com/cutemachine/gatsby-starter-co
 ## Roadmap
 
 - [x] Build initial version
-- [ ] Style site with styled-components, Grid Styled, and Styled System
-- [ ] Make the site responsive
+- [x] Style site with styled-components, Grid Styled, and Styled System
+- [x] Add support for themes
+- [x] Make the site responsive
+- [x] Add vertical rhythm
 - [ ] Make it easy to adjust settings (Twitter handle etc.), copy, and colors
-- [ ] Add support for themes
 - [ ] Add an email sign-up component
 - [ ] Add a countdown component
 - [ ] Add a progress component
-- [ ] Add a feature list component
-- [ ] Add a Twitter list component
-- [ ] Add a second page with About and contact info
+- [x] Add a feature list component
+- [ ] Add a Twitter component
+- [ ] Add a second page with about and contact info
 - [ ] Tutorial on how to use and expand the starter
 
 
