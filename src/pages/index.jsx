@@ -8,8 +8,7 @@ import {
   H4Box,
   P
 } from '../components'
-import config from '../../data/SiteConfig'
-
+import config from '../../data/siteConfig'
 
 const LandingPage = styled.div`
   border-top: 10px solid ${props => props.theme.colors.brand};
@@ -87,7 +86,7 @@ export default () => (
           <FeatureItem>Use your own domain</FeatureItem>
           <FeatureItem>No recurring costs</FeatureItem>
           <FeatureItem>Free hosting on Netlify</FeatureItem>
-          <FeatureItem>Free certificate from Let's Encrypt</FeatureItem>
+          <FeatureItem>Free certificate from Let&#39;s Encrypt</FeatureItem>
         </FeatureList>
       </FeatureBox>
     </ComingSoon>
