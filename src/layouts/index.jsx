@@ -1,7 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import { ThemeProvider } from 'styled-components'
-import config from '../../data/SiteConfig'
+import config from '../../data/siteConfig'
 import theme from '../theme'
 import './index.css'
 
