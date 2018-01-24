@@ -7,6 +7,7 @@ import H6Box from './H6Box'
 import P from './P'
 import PSmall from './PSmall'
 import PTiny from './PTiny'
+import SignupForm from './SignupForm'
 
 export {
   H1Box,
@@ -17,5 +18,6 @@ export {
   H6Box,
   P,
   PSmall,
-  PTiny
+  PTiny,
+  SignupForm
 }

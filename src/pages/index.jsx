@@ -6,7 +6,8 @@ import {
   H2Box,
   H3Box,
   H4Box,
-  P
+  P,
+  SignupForm
 } from '../components'
 import config from '../../data/siteConfig'
 
@@ -90,5 +91,12 @@ export default () => (
         </FeatureList>
       </FeatureBox>
     </ComingSoon>
+    <SignupForm
+      name={`${config.signupFormNewsletterName}`}
+      title={`${config.signupFormCallToAction}`}
+      description={`${config.signupFormText}`}
+      buttonTitle={`${config.signupFormButtonTitle}`}
+      action={`${config.signupFormAction}`}
+    />
   </LandingPage>
 )
