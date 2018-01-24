@@ -19,7 +19,7 @@ const LandingPage = styled.div`
   }
   background-color: ${props => props.theme.colors.darkBlueBlack};
   background-repeat: repeat;
-  background-image: url("/images/ignasiPattern.png");
+  background-image: url("/images/pattern.png");
 `
 
 const Hero = styled.section`
@@ -64,7 +64,6 @@ const ComingSoon = styled.section`
   ${color}
   ${fontSize}
   ${width}
-  background: white;
 `
 
 export default () => (
