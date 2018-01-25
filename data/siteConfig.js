@@ -19,6 +19,6 @@ export default {
   signupFormCallToAction: 'Sign up For Muffins', // Call to action used in SignupForm as title.
   signupFormText: 'I will let you know when they come out of the oven.', // Text, what can the subscriber expect to receive.
   signupFormButtonTitle: 'Join the muffin movement', // Label for the subscribe button.
-  signupFormAction: '//cutemachine.us9.list-manage.com/subscribe/post?u=21fb7ae093305702a7417e61f&amp;id=bed7e05213', // You can find this on your MailChimp account.
+  signupFormAction: '//YOURACCOUNT.us9.list-manage.com/subscribe/post?u=SOME_NUMBER&amp;id=SOME_ID', // You can find this on your MailChimp account, or by looking at the sample form MailChimp provides for your account.
   copyright: 'Copyright © 2017. CuteMachine' // Copyright string
 }
