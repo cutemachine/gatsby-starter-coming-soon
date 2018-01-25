@@ -36,7 +36,7 @@ gatsby new your-new-gatsby-site https://github.com/cutemachine/gatsby-starter-co
 - [x] Make the site responsive
 - [x] Add vertical rhythm
 - [ ] Make it easy to adjust settings (Twitter handle etc.), copy, and colors
-- [ ] Add an email sign-up component
+- [x] Add an email sign-up component
 - [ ] Add a countdown component
 - [ ] Add a progress component
 - [x] Add a feature list component
