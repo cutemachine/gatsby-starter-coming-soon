@@ -6,7 +6,8 @@ import {
   H2Box,
   H3Box,
   H4Box,
-  P
+  P,
+  SignupForm
 } from '../components'
 import config from '../../data/siteConfig'
 
@@ -18,7 +19,7 @@ const LandingPage = styled.div`
   }
   background-color: ${props => props.theme.colors.darkBlueBlack};
   background-repeat: repeat;
-  background-image: url("/images/ignasiPattern.png");
+  background-image: url("/images/pattern.png");
 `
 
 const Hero = styled.section`
@@ -63,7 +64,6 @@ const ComingSoon = styled.section`
   ${color}
   ${fontSize}
   ${width}
-  background: white;
 `
 
 export default () => (
@@ -90,5 +90,12 @@ export default () => (
         </FeatureList>
       </FeatureBox>
     </ComingSoon>
+    <SignupForm
+      name={`${config.signupFormNewsletterName}`}
+      title={`${config.signupFormCallToAction}`}
+      description={`${config.signupFormText}`}
+      buttonTitle={`${config.signupFormButtonTitle}`}
+      action={`${config.signupFormAction}`}
+    />
   </LandingPage>
 )
