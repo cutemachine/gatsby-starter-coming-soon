@@ -16,6 +16,7 @@ export default {
     bodyText: '#333333',
     lightBodyText: '#8f8f8f',
     brand: 'lime',
+    brandLogo: '#203248',
     primary: 'lime',
     secondary: 'lime',
     lightGray: '#f9f9f9',

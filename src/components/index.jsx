@@ -1,3 +1,4 @@
+import Coffee from './Coffee'
 import H1Box from './H1Box'
 import H2Box from './H2Box'
 import H3Box from './H3Box'
@@ -10,6 +11,7 @@ import PTiny from './PTiny'
 import SignupForm from './SignupForm'
 
 export {
+  Coffee,
   H1Box,
   H2Box,
   H3Box,
