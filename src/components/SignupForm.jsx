@@ -46,7 +46,7 @@ class SignupForm extends Component {
 
     return (
       <Section color={color} bg={bg} py={6} px={[1, 6]}>
-        <Flex wrap style={{maxWidth: '800', marginLeft: 'auto', marginRight: 'auto'}}>
+        <Flex wrap style={{maxWidth: '800px', marginLeft: 'auto', marginRight: 'auto'}}>
           <H4Box w={1} py={1}>
             { name }
           </H4Box>
