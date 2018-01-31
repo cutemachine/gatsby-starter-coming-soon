@@ -38,7 +38,7 @@ gatsby new your-new-gatsby-site https://github.com/cutemachine/gatsby-starter-co
 - [ ] Make it easy to adjust settings (Twitter handle etc.), copy, and colors
 - [x] Add an email sign-up component
 - [ ] Add a countdown component
-- [ ] Add a progress component
+- [x] Add a progress component
 - [x] Add a feature list component
 - [ ] Add a Twitter component
 - [ ] Add a second page with about and contact info
