@@ -76,7 +76,7 @@ class SignupForm extends Component {
                     <Submit is='input' p={0} type='submit' value={buttonTitle} name='subscribe' id='mc-embedded-subscribe' />
                   </div>
                 </form>
-                <PTiny center>No spam, unsubscribe at any time.</PTiny>
+                <PTiny center>No spam, just fresh muffins.</PTiny>
               </div>
             </Box>
           </Box>

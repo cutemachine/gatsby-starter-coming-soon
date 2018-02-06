@@ -4,7 +4,7 @@ import styled, { withTheme } from 'styled-components'
 import { Box } from 'grid-styled'
 import { width, space, fontSize, color } from 'styled-system'
 import {
-  Coffee,
+  Muffin,
   H2Box,
   H3Box,
   H4Box,
@@ -25,7 +25,7 @@ const Page = styled.div`
   background-image: url("/images/pattern.png");
 `
 
-const LogoStyled = styled(Coffee)`
+const LogoStyled = styled(Muffin)`
   vertical-align: middle;
   position: absolute;
   top: 0px;
@@ -41,9 +41,6 @@ const Hero = styled.section`
   ${width}
 `
 
-// const Feature = styled.section`
-//   background: ${props => props.theme.colors.superLightGray};
-// `
 const FeatureBox = styled(Box)`
   ${space}
   ${width}
@@ -86,7 +83,7 @@ class LandingPage extends React.Component {
       <Page>
         <Hero color='white' bg='darkBlueBlack' px={[1, 6]}>
           <div style={{position: 'relative', maxWidth: '800px', marginLeft: 'auto', marginRight: 'auto'}}>
-            <Link to='/'>
+            <Link to='/about'>
               <LogoStyled fill={theme.colors.brandLogo} width='2em' height='2em' alt='Brand Logo' />
             </Link>
             <Box py={6}>
@@ -107,12 +104,12 @@ class LandingPage extends React.Component {
           <H3Box is='h3' center px={1} py={6}>Coming very soon</H3Box>
           <FeatureBox color='white' bg='blueBlack' py={4} px={[0, 6]} mb={6}>
             <FeatureList p={1}>
-              <FeatureItem>Works perfectly on any screen size</FeatureItem>
-              <FeatureItem>Deploy your site with one command</FeatureItem>
-              <FeatureItem>Use your own domain</FeatureItem>
-              <FeatureItem>No recurring costs</FeatureItem>
-              <FeatureItem>Free hosting on Netlify</FeatureItem>
-              <FeatureItem>Free certificate from Let&#39;s Encrypt</FeatureItem>
+              <FeatureItem>Secret pop-up bakery</FeatureItem>
+              <FeatureItem>Bio-bio wheat</FeatureItem>
+              <FeatureItem>Always fresh</FeatureItem>
+              <FeatureItem>Monsanto free</FeatureItem>
+              <FeatureItem>Martini sales under the counter</FeatureItem>
+              <FeatureItem>Call us, we will come and bake near you</FeatureItem>
             </FeatureList>
           </FeatureBox>
         </ComingSoon>
