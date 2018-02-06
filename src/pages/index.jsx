@@ -41,9 +41,6 @@ const Hero = styled.section`
   ${width}
 `
 
-// const Feature = styled.section`
-//   background: ${props => props.theme.colors.superLightGray};
-// `
 const FeatureBox = styled(Box)`
   ${space}
   ${width}
@@ -107,12 +104,12 @@ class LandingPage extends React.Component {
           <H3Box is='h3' center px={1} py={6}>Coming very soon</H3Box>
           <FeatureBox color='white' bg='blueBlack' py={4} px={[0, 6]} mb={6}>
             <FeatureList p={1}>
-              <FeatureItem>Works perfectly on any screen size</FeatureItem>
-              <FeatureItem>Deploy your site with one command</FeatureItem>
-              <FeatureItem>Use your own domain</FeatureItem>
-              <FeatureItem>No recurring costs</FeatureItem>
-              <FeatureItem>Free hosting on Netlify</FeatureItem>
-              <FeatureItem>Free certificate from Let&#39;s Encrypt</FeatureItem>
+              <FeatureItem>Secret pop-up bakery</FeatureItem>
+              <FeatureItem>Bio-bio wheat</FeatureItem>
+              <FeatureItem>Always fresh</FeatureItem>
+              <FeatureItem>Monsanto free</FeatureItem>
+              <FeatureItem>Martini sales under the counter</FeatureItem>
+              <FeatureItem>Call us, we will come and bake near you</FeatureItem>
             </FeatureList>
           </FeatureBox>
         </ComingSoon>

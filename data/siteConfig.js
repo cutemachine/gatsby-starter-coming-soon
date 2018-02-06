@@ -1,8 +1,8 @@
 export default {
   siteTitle: 'Comin Soon Starter', // Site title, used mainly on the title tag.
-  projectName: 'Project Name', // Name of your project, used in site title and section header
-  projectTitle: 'The Perfect Landing Page For Your Project', // 
-  projectSubtitle: 'The easiest way to build and host a website for your upcoming project launch.', // 
+  projectName: 'The Muffin Pop-Up Bakery', // Name of your project, used in site title and section header
+  projectTitle: 'Perfect Muffins And Muffin-Tops Near You', // 
+  projectSubtitle: 'A second on your lips, forever on your hips.', // 
   userLinks: [
     {
       label: 'Twitter',
