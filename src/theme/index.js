@@ -15,7 +15,7 @@ export default {
     titleText: '#323232',
     bodyText: '#333333',
     lightBodyText: '#8f8f8f',
-    brand: 'lime',
+    brand: 'hotpink',
     brandLogo: '#203248',
     primary: 'lime',
     secondary: 'lime',
