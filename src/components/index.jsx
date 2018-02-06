@@ -9,6 +9,7 @@ import P from './P'
 import PSmall from './PSmall'
 import PTiny from './PTiny'
 import SignupForm from './SignupForm'
+import Progress from './Progress'
 
 export {
   Coffee,
@@ -21,5 +22,6 @@ export {
   P,
   PSmall,
   PTiny,
-  SignupForm
+  SignupForm,
+  Progress
 }

@@ -20,5 +20,10 @@ export default {
   signupFormText: 'I will let you know when they come out of the oven.', // Text, what can the subscriber expect to receive.
   signupFormButtonTitle: 'Join the muffin movement', // Label for the subscribe button.
   signupFormAction: '//YOURACCOUNT.us9.list-manage.com/subscribe/post?u=SOME_NUMBER&amp;id=SOME_ID', // You can find this on your MailChimp account, or by looking at the sample form MailChimp provides for your account.
+  progressPercentage: 75, // 75 means 75%
+  progressLabel: '75% Complete', // Label for the progress bar
+  progressLabelColor: '#f2f2f2', // Label color for progress bar
+  progressBackgroundColor: '#f2f2f2', // Background color of progress bar
+  progressFillColor: '#233246', // Background color of progress bar
   copyright: 'Copyright © 2017. CuteMachine' // Copyright string
 }

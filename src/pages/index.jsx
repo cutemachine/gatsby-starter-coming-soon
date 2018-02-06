@@ -9,7 +9,8 @@ import {
   H3Box,
   H4Box,
   P,
-  SignupForm
+  SignupForm,
+  Progress
 } from '../components'
 import config from '../../data/siteConfig'
 
@@ -95,6 +96,13 @@ class LandingPage extends React.Component {
             </Box>
           </div>
         </Hero>
+        <Progress
+          percentage={config.progressPercentage}
+          label={config.progressLabel}
+          fillColor={config.progressFillColor}
+          labelColor={config.progressLabelColor}
+          backgroundColor={config.progressBackgroundColor}
+        />
         <ComingSoon py={6}>
           <H3Box is='h3' center px={1} py={6}>Coming very soon</H3Box>
           <FeatureBox color='white' bg='blueBlack' py={4} px={[0, 6]} mb={6}>
