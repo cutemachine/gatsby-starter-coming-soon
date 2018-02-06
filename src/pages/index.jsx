@@ -83,7 +83,7 @@ class LandingPage extends React.Component {
       <Page>
         <Hero color='white' bg='darkBlueBlack' px={[1, 6]}>
           <div style={{position: 'relative', maxWidth: '800px', marginLeft: 'auto', marginRight: 'auto'}}>
-            <Link to='/'>
+            <Link to='/about'>
               <LogoStyled fill={theme.colors.brandLogo} width='2em' height='2em' alt='Brand Logo' />
             </Link>
             <Box py={6}>
