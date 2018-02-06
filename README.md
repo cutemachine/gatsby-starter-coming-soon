@@ -35,13 +35,13 @@ gatsby new your-new-gatsby-site https://github.com/cutemachine/gatsby-starter-co
 - [x] Add support for themes
 - [x] Make the site responsive
 - [x] Add vertical rhythm
-- [ ] Make it easy to adjust settings (Twitter handle etc.), copy, and colors
+- [x] Make it easy to adjust settings, copy, and colors
 - [x] Add an email sign-up component
 - [ ] Add a countdown component
 - [x] Add a progress component
 - [x] Add a feature list component
 - [ ] Add a Twitter component
-- [ ] Add a second page with about and contact info
+- [x] Add an about page
 - [ ] Tutorial on how to use and expand the starter
 
 
