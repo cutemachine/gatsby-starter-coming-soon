@@ -1,4 +1,5 @@
 import Coffee from './Coffee'
+import Muffin from './Muffin'
 import H1Box from './H1Box'
 import H2Box from './H2Box'
 import H3Box from './H3Box'
@@ -13,6 +14,7 @@ import Progress from './Progress'
 
 export {
   Coffee,
+  Muffin,
   H1Box,
   H2Box,
   H3Box,

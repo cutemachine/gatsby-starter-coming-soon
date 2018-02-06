@@ -4,7 +4,7 @@ import styled, { withTheme } from 'styled-components'
 import { Box } from 'grid-styled'
 import { width, space, fontSize, color } from 'styled-system'
 import {
-  Coffee,
+  Muffin,
   H2Box,
   H3Box,
   H4Box,
@@ -25,7 +25,7 @@ const Page = styled.div`
   background-image: url("/images/pattern.png");
 `
 
-const LogoStyled = styled(Coffee)`
+const LogoStyled = styled(Muffin)`
   vertical-align: middle;
   position: absolute;
   top: 0px;
